@@ -1,0 +1,32 @@
+
+/* #firstHeading{
+    color:rgb(163, 127, 255);
+    font-size:30px;
+}
+p{
+    color:rgb(127, 255, 191);
+    font-size:30px;
+}
+li{
+    color:rgb(255, 127, 223);
+    font-size:30px;
+}
+.secondHeading{
+    color:rgb(146, 255, 127);
+    font-size:30px;
+}
+ *{
+    color:rgb(196, 224, 255);
+    font-size:30px;
+ } */ 
+html{
+    color:rgb(255, 196, 236);
+    font-size:30px;
+}
+:root{
+    --firstColor:rgb(0, 255, 183);
+}
+
+h1{
+    color:var(--firstColor);
+}
